@@ -27,4 +27,8 @@ For our project, we will be focusing on the ‘Order Intelligence’ part of thi
 <img src='https://images.upgrad.com/137bcb53-7fa1-4aab-a93a-6f5b369efd4b-Upgrad%20RT%20STreaming%20-%20internal.png'>
 
 
-Task
+Task:
+1. Reading the sales data from the Kafka server
+2. Preprocessing the data to calculate additional derived columns such as total_cost etc
+3. Calculating the time-based KPIs and time and country-based KPIs
+4. Storing the KPIs (both time-based and time- and country-based) for a 10-minute interval into separate JSON files for further analysis
